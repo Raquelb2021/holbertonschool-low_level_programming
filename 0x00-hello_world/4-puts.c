@@ -1,9 +1,8 @@
 #include <stdio.h>
-/* main - Entry point */
+
+/* Display a text in the screem */
 int main(void)
 {
-	/*Using puts*/
-	puts("Programming is like building a multilingual puzzle\n");
- 	
+	puts("Programming is like building a multilingual puzzle\n"); 	
 	return (0);
 }
