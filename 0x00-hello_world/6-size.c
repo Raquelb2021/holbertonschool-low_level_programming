@@ -9,14 +9,14 @@ int main(void)
 {
 	char charType;
 	int intType;
-	long longintType;
+	long int longintType;
 	long long int longlongintType;
 	float floatType;
 
-printf("Size of char: %zu bytes\n", sizeof'charType');
-printf("Size of int: %zu bytes\n", sizeof'intType');
-printf("Size of long: %zu bytes\n", sizeof'longType');
-printf("Size of long long int: %zu byte\n", sizeof'longlongintType');
-printf("Size of float: %zu bytes\n", sizeof'floatType');
+printf("Size of char: %c bytes\n", sizeof'charType');
+printf("Size of int: %d bytes\n", sizeof'intType');
+printf("Size of long int: %ld bytes\n", sizeof'longintType');
+printf("Size of long long int: %lld byte\n", sizeof'longlongintType');
+printf("Size of float: %f bytes\n", sizeof'floatType');
 return (0);
 }
