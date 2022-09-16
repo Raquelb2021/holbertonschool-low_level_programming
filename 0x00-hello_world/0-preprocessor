@@ -1,0 +1,3 @@
+#!/bin/bash
+#include <stdio.h>
+gcc -E 0-preprocessor -o c
