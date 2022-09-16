@@ -1,18 +1,20 @@
 #include<stdio.h>
 
-/**
-*main - Entry point
-*
-*Return: Always 0 (Success)
-*/
-void main(void)
-{
-clrscr();
-printf("TypettttSize (bytes)");
-printf("nIntegertttt %d", sizeof(char));
-printf("nIntegertttt %d", sizeof(long int));
-printf("nFloatttt %d", sizeof(double));
-printf("nlong doublettt %d", sizeof(long double));
-getch();
-return (0);
+/*
+ * main -Entry pint
+ *
+ * Return: Always 0 (Sucess)
+ */
+int main(void) {
+	int intType;
+	float floatType;
+	double doubleType;
+	char charType;
+	
+	printf("Size of int: %zu bytes\n", sizeof(intType));
+	printf("Size of float: %zu bytes\n", sizeof(floatType));
+	printf("Size of double: %zu bytes\n", sizeof(doubleTypes));
+	printf("Size of char: %zu byte\n", sizeof(charType));
+
+	return (0);
 }
