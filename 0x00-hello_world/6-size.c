@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-/*
+/**
  * main -Entry pint
  *
  * Return: Always 0 (Sucess)
