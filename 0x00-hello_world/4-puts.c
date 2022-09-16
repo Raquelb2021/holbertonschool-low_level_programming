@@ -1,5 +1,11 @@
 #include <stdio.h>
-/*Using puts*/
+/**
+ * main - Entry point
+ *
+ * Description: 'the program's description'
+ *
+ * return: Always 0 (Success)
+ */ 
 int main(void)
 {
 	puts("Programming is like building a multilingual puzzle\n");
