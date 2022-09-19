@@ -7,7 +7,7 @@
 int main(void)
 {
 	int ch;
-	flor (ch= 'a'; ch<= 'z'; ch++)
+	for (ch= 'a'; ch<= 'z'; ch++)
 		putcha(ch);
 		putchar ('\n') ;
 		getch();
