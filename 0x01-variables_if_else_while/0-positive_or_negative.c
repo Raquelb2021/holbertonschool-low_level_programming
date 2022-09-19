@@ -11,7 +11,7 @@ int main(void)
 {
 	int n;
 	srand(time(0));
-	printf("The randomly generaed number is");
+	printf("98 is positive");
 	n = rand() - RAND_MAX / 2;
 	printf("%d\n", n);
 	return (0);
