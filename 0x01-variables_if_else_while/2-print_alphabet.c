@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main -Prints the alphabet in lowercase
@@ -9,7 +9,7 @@ int main(void)
 {
 	char ch;
 	if (ch = 'a'; ch <= 'z'; ch++)
-	putchar('n', ch);
+	putchar(ch);
 		
 	return (0);
 }
