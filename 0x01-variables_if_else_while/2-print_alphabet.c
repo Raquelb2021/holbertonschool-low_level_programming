@@ -7,7 +7,6 @@
 int main(void)
 {
 	int ch;
-	clrscr();
 	flor (ch= 'a'; ch<= 'z'; ch++)
 		putcha(ch);
 		putchar ('\n') ;
