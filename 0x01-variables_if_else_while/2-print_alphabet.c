@@ -1,16 +1,13 @@
 #include <stdio.h>
 /**
- * main -Entry pint
+ * main -Prints the alphabet in lowercase
  *
  * Return: Always 0 (Sucess)
  */
 int main(void)
 {
-	char ch;
+	char letter;
 
-	printf("\nLowercase characers : \n");
-	for (ch = 'a'; ch <= 'z'; ch++)
-		putchar(ch);
-		putchar ('\n') ;
-		getch();
+	for (letter = 'a'; letter <= 'z'; letter++)
+		return (0);
 }
