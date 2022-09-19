@@ -15,9 +15,9 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	scanf( "%d", &n );
    	
-	printf("is positive %d",rand());
-	printf("is zero %d",rand());
-	printf("is negative %d",rand());
+	printf("is positive &n",rand());
+	printf("is zero &n",rand());
+	printf("is negative &n",rand());
 
 	return (0);
 }
