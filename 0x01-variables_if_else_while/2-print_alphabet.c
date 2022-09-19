@@ -5,12 +5,12 @@
  * Return: Always 0 (Sucess)
  */
 	int main(void)
-	{
-		for (char c = 'a'; c < = 'z'; c++)
-	{
-	putchar (c);
-	}
+{
+		char ch;
+		for (ch = 'a'; ch < = 'z'; ch++)
+{
+	putchar (ch);
+}
 
 	return (0);
-
 }
