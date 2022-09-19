@@ -8,7 +8,7 @@ int main(void)
 {
 	int ch;
 	for (ch= 'a'; ch<= 'z'; ch++)
-		putcha(ch);
+		putchar(ch);
 		putchar ('\n') ;
 		getch();
 }
