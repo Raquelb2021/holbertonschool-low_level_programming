@@ -5,12 +5,12 @@
  *
  * Return: Always 0 (Sucess)
  */
-int main(void)
+	int main(void)
 {
-	int letter;
-	for(letter='a';ch<='z';letter++)
-	putchar(letter);
-	printf("\n");
-
+	for( char c ='a'; c <= 'z'; c++ )
+	{
+	putchar( c );
+	}
+	
 	return(0);
 }
