@@ -8,7 +8,7 @@
 {
 	char ch;
 
-	for (char = 'a' ; char <= 'z' ; char++)
+	for (ch = 'a' ; ch <= 'z' ; ch++)
 {
 	putchar (ch);
 }
