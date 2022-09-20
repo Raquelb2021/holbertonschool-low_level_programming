@@ -1,15 +1,15 @@
 /**
  * main - entry point
- * Return: 0
+ * 
  */
 
 #include "main.h"
 
 /**
  * print_alphabet - prints the alphabet in lowercase.
- * @letter 
+ * @letter: the string to be prited
  */
- void print_alphabet(void)
+void print_alphabet(void)
 {
 		char letter;
 
