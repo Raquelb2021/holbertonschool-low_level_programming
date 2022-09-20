@@ -1,10 +1,19 @@
-#include<unistd.h>
+#include "main.h"
 /**
- *  main 
- * 
+ * main
+ *
  * Return: Always 0 (Success)
  */
-int _putchar(char c)
+int main(void)
 {
-	return (write(1, &c, 1));
+	char *sh = "_putchar";
+
+	while (*sh)
+	{
+		_putchar(*sh);
+		sh++;
+	}
+	_putchar('\n');
+
+	return (0);
 }
