@@ -8,9 +8,9 @@
 {
 	char ch;
 
-	for (ch = 'a' ; ch <= 'z' ; ch++)
+	for (ch = 'a' ; ch <= 'z' ; ch++\n)
 {
-	putchar (ch"\n");
+	putchar (ch);
 }
 	return (0);
 }
