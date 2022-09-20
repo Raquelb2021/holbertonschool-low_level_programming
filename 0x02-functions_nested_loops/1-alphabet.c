@@ -1,13 +1,13 @@
 /**
- * main - entry point
- * 
+ * File 1-alphabet.c
+ *Auth: Raquel Bezerra
  */
 
 #include "main.h"
 
 /**
  * print_alphabet - prints the alphabet in lowercase.
- * @letter: the string to be prited
+ * @letter: the string to be prited.
  */
 void print_alphabet(void)
 {
