@@ -9,9 +9,7 @@
 	char ch;
 
 	for (ch = 'a' ; ch <= 'z' ; ch++)
-{
-	putchar (ch);
-}
-putchar('\n')
-	return (0);
+	putchar(ch);
+  	putchar('\n');
+ 	return (0);
 }
