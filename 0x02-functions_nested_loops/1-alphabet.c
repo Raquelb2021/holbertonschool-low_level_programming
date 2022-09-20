@@ -7,7 +7,7 @@
 
 /**
  * print_alphabet - prints the alphabet in lowercase.
- * followed by a ner line
+ * return: 0e
  */
 void print_alphabet(void)
 {
