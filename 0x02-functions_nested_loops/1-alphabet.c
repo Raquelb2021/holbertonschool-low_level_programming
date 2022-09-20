@@ -6,7 +6,8 @@
 #include "main.h"
 
 /**
- * void print_alphabet - prints the alphabet in lowercase.
+ * print_alphabet - prints the alphabet in lowercase.
+ * followed by a ner line
  */
 void print_alphabet(void)
 {
