@@ -7,6 +7,7 @@
 
 /**
  * print alphabet in lowercase
+ * print_alphabet
  */
 	void print_alphabet(void)
 {
