@@ -1,14 +1,18 @@
 /**
  * File 1-alphabet.c
- *Auth: Raquel Bezerra
+ * Auth: Raquel Bezerra
  */
 
 #include "main.h"
 
 /**
- * print_alphabet - prints the alphabet in lowercase.
- * @letter: the string to be prited.
- */
+ *  * function_name - Short description, single line
+ *   * @parameterx: Description of parameter x
+ *   (* a blank line
+ *    * Description: Longer description of the function)?
+ *    (* section header: Section description)*
+ *     * Return: Description of the returned value
+ *      */
 void print_alphabet(void)
 {
 		char letter;
