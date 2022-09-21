@@ -1,7 +1,3 @@
-/**
- * File 1-alphabet.c
- * Auth: Raquel Bezerra
- */
 int main(void)
 
 /**
@@ -12,5 +8,10 @@ int main(void)
 	void print_alphabet_x10(void);
 {
 	char ch;
+	int count = 10;
 
-	for(
+	for(ch = 'a'; ch <= 'z'; ch++)
+		_putchar(ch);
+
+		_putchar('\n')
+}
