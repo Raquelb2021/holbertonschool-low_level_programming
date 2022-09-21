@@ -6,11 +6,18 @@
 #include "main.h"
 void print_alphabet_x10(void)
 {
-	char ch;
-	int count = 10;
 
-	for(ch = 'a'; ch <= 'z'; ch++)
-		_putchar(ch);
+	int n, co;
+	
+	co = 0;
 
-		_putchar('\n');
-}
+	while(co < 10)
+{
+	for(n = 'a'; n <= 'z'; n++)
+	{
+	_putchar(n);
+	}
+	co++;
+	_putchar('\n');
+	}
+	}
