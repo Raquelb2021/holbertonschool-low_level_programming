@@ -1,13 +1,14 @@
 /**
- * print_alphabet - print alphabet in lowercase 10 times
+ * print_alphabet_x10 - print alphabet in lowercase 10 times
  *
  * return:0(success)
  */
+
 #include "main.h"
 void print_alphabet_x10(void)
 {
 
-	int n, co;
+int n, co;
 	co = 0;
 
 	while (co < 10)
