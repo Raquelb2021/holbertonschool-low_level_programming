@@ -6,7 +6,7 @@
 int _islower(int c);
 	{
 	char ch;
-	if(ch >= 'c' && ch <= 'c')
+	if(ch >= 'c' && ch <= 'c');
 	{
 	       	return (1);
 	}
@@ -14,5 +14,5 @@ int _islower(int c);
 	{
 		return (0);
 	}
-		putchar(ch)
+		putchar(ch);
 	}
