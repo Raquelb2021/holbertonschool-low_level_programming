@@ -10,3 +10,7 @@ int main(void)
  * return:0(success)
  */
 	void print_alphabet_x10(void);
+{
+	char ch;
+
+	for(
