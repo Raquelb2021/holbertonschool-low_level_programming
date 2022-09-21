@@ -4,7 +4,7 @@
  */
 #include "main.h"
 int _islower(int c);
-{
+	{
 	char ch;
 	if(ch >= 'c' && ch <= 'c')
 	{
@@ -15,4 +15,4 @@ int _islower(int c);
 		return (0);
 	}
 		putchar(ch)
-}
+	}
