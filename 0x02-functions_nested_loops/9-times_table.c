@@ -5,7 +5,7 @@
  *
  */
 
-void time_table(void);
+void time_table()
 {
 	int num, mult, result;
 
