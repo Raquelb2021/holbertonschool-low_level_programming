@@ -6,6 +6,8 @@
  */
 void jack_bauer(void)
 {
+	int h, m;
+
 	h < -seq(from = 0, to = 23)
 	m < -seq(from = 0, to = 59)
 
