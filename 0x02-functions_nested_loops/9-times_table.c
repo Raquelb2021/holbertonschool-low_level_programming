@@ -16,6 +16,8 @@ void times_table(void)
 	{
 		_putchar(',');
 		_putchar(' ');
+		
+		result = num * mult;
 
 		if (result <= 9)
 			_putchar(' ');
