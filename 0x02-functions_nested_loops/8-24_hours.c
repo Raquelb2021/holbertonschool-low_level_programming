@@ -7,17 +7,16 @@
 void jack_bauer(void)
 {
 	int h, m;
-
-	h < -seq(from = 0, to = 23)
-	m < -seq(from = 0, to = 59)
-
-	h < -sprintf('%02d', h)
-	m < -sprintf('%02d', m)
-
-	df < -data.frame(expand.grid(h, m))
-	df$times < -paste0(df$Var1, ':', df$Var2)
-
-	df < -df[order(df$times)]
-	df$times
-	_putchar('\n');
-}
+	for(h = 0; h <= 23; h++)
+	{
+	for(m =0; m <= 59; m++)
+	{
+		_putchar((h / a) + '0');
+		_putchar((h % a) + '0');
+		_putchar(':');
+		_putchar((m / a) + '0');
+		_putchar((m % a) + '0');
+		_putchar('\n');
+	}
+	}
+}	
