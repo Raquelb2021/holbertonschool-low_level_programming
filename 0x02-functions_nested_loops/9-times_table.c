@@ -5,7 +5,7 @@
  *
  */
 
-void time_table()
+void times_table(void)
 {
 	int num, mult, result;
 
@@ -13,22 +13,20 @@ void time_table()
 	{
 		_putchar('0');
 
-	for (mult = 1; mult <= 9; mult++)
-	{
-		_putchar(',');
-		_putchar(' ');
-		
-		result = num * mult;
-
-		if (result <= 9)
+		for (mult = 1; mult <= 9; mult++)
+		{
+			_putchar(',');
 			_putchar(' ');
-		else
-			_putchar((result / 10) + '0');
 
-		_putchar((result % 10) + '0');
-	}
+			result = num * mult;
+
+			if (result <= 9)
+				_putchar(' ');
+			else
+				_putchar((result / 10) + '0');
+
+			_putchar((proud % 10) + '0');
+		}
 		_putchar('\n');
 	}
 }
-
-
