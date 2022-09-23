@@ -5,7 +5,7 @@
  * 	return 0 otherwise
  * @c: the character
  */
-int _isupper(int c);
+int _isupper(int c)
 {
 	if (c >= 'A' && c <= 'Z')
 		return (1);
