@@ -1,4 +1,5 @@
 #include "main.h"
+#include "_putchar.c"
 /**
  * print_numbers - will print the number 0 to 9.
  * n - is a variable.
