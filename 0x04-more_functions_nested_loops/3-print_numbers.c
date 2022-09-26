@@ -15,5 +15,4 @@ void print_numbers(void)
 		n++;
 
 	}
-	return (0);
 }
