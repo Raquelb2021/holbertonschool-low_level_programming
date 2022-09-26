@@ -10,5 +10,6 @@ void print_numbers(void)
 	{
 		_putchar("%d", n);
 		_putchar("\n");
+		n++;
 	}
 }
