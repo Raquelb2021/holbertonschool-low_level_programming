@@ -4,7 +4,6 @@
  * n - is a variable.
  */
 void print_numbers(void)
-int main(void)
 {
 	int n = 0;
 
