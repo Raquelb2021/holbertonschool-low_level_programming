@@ -5,8 +5,9 @@
  * @b: the integer that is being multiplied
  * Return: Return 0.
  */
-int mul(int a, int b);
-{
-	if (int a * int b)
+int mul(int a, int b)
+{	
+	mul (int a * int b)	
+
 	return (0);
 }
