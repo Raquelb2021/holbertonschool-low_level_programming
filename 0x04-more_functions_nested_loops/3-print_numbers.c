@@ -4,6 +4,7 @@
  * n - is a variable.
  */
 void print_numbers(void)
+int main(void)
 {
 	int n = 0;
 
@@ -12,6 +13,7 @@ void print_numbers(void)
 
 		_putchar(n);
 		_putchar('\n');
+		n++;
 
 	}
 }
