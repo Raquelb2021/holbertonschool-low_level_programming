@@ -3,7 +3,7 @@
 
 /**
  * _strlen - function that returns the length of a string
- * c: variable
+ * count: variable
  * @s: string
  * Return: return value
  */
