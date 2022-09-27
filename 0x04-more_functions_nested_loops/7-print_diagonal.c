@@ -1,7 +1,9 @@
 #include "main.h"
 /**
- *
- *
+ * print_diagonal - function
+ * @n: number of times the character '\'.
+ * x: variable, number of spaces.
+ * y: variable, number of slash.
  */
 void print_diagonal(int n)
 {
@@ -17,7 +19,10 @@ void print_diagonal(int n)
 		_putchar(' ');
 
 		_putchar('\\');
-
+			
+		if (x == n - 1)
+			continue;
+		_putchar('\n');
 
 		}
 	}
