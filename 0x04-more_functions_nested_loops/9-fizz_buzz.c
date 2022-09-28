@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Function
- * return: Return 0.
+ * Return: Return 0.
  *
  */
 int main(void)
@@ -22,6 +22,7 @@ int main(void)
 			printf("i%, n");
 
 		if (n < 100)
+			printf(" ");
 
 		else 
 			printf("\n");
