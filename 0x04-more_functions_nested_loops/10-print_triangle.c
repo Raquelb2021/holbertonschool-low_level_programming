@@ -11,16 +11,16 @@ void print_triangle(int size)
 
 	if (size <= 0)
 	{
-		_putchar (10);
+		_putchar(10);
 		return;
 	}
 	for (i = 0; i < size; i++)
 	{
 		if (a > i)
-		_putchar (' ');
+		_putchar(' ');
 
 		else
-		_putchar (35);
+		_putchar(35);
 	}
 	_putchar (10);
 }
