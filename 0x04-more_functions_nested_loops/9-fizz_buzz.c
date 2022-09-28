@@ -12,9 +12,9 @@ int main(void)
 		if (i % 15 == 0)
 			printf("FizzBuzz\t");
 		else if ((i % 3) == 0)
-			printf("FizzBuzz\t");
+			printf("Fizz\t");
 		else if ((i % 5) == 0)
-			printf("FizzBuzz\t");
+			printf("Buzz\t");
 		else
 			printf("%d\t", i);
 	}
