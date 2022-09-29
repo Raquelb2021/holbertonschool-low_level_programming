@@ -6,12 +6,11 @@
  */
 void print_triangle(int size)
 {
-	int i;
-	int a;
+	int i, a;
 
 	if (size <= 0)
 	{
-	_putchar(10);
+	_putchar('\n');
 	}
 	else
 
@@ -24,5 +23,5 @@ void print_triangle(int size)
 		_putchar('#');
 		}
 	}
-	_putchar (10);
+	_putchar ('\n');
 }
