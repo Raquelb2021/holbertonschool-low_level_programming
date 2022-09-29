@@ -1,7 +1,10 @@
 #include "holberton.h"
 /**
- *
- *
+ * _strcat - The function. This code is joing two strings.
+ * @a, @b: are the integers.
+ * @src: the string that is beeing joing.
+ * @dest: the string that is beeing joing.
+ * Return: will return the string dest.
  */
 char *_strcat(char *dest, char *src)
 {
