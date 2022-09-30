@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
  * _strncat - function that in joing 2 strings.
- * @dest: string 
+ * @dest: string
  * @src: string
  * Return: Resturn dest
  * @n: integer
