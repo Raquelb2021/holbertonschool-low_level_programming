@@ -13,7 +13,7 @@ char *_strncpy(char *dest, char *src, int n)
 	int b = 0;
 		
 	for (a = 0; a <= 0; a++)
-
+		
 		for (b = 0; b <= 0; b++)
 
 
@@ -22,8 +22,8 @@ char *_strncpy(char *dest, char *src, int n)
 			*dest = *src;
 			dest++;
 			src++;
+
 		}
-
-
+			
 	return (dest);
 }
