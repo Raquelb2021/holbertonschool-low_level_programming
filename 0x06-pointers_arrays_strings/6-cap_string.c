@@ -1,6 +1,8 @@
 #include "holberton.h"
 /**
- *
+ * *cap_string - Function that capitalizes all words of a string
+ * @s: string
+ * Return: return value to s string
  */
 char *cap_string(char *s)
 {
@@ -32,7 +34,7 @@ char *cap_string(char *s)
 			case '{':
 			case '}':
 
-			++a;	
+			++a;
 			if (s[a] >= 'a' && s[a] <= 'z')
 			{
 				s[a] = s[a] - 32;
