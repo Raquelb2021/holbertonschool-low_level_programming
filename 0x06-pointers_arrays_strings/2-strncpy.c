@@ -2,8 +2,7 @@
 /**
  * _strncpy - Function that is copying two strings
  * @a and @b: are integers
- * @c: integer
- * @n: integer
+ * * @n: integer
  * @dest: string
  * @src: string
  * Return: return to dest
@@ -17,7 +16,7 @@ char *_strncpy(char *dest, char *src, int n)
 	a = 0;
 	b = 0;
 
-		
+
 	while (src[a] != '\0')
 		a++;
 
