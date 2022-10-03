@@ -8,8 +8,8 @@ char *cap_string(char *s)
 {
 	int a;
 
-
 	for (a = 0; s[a] != '\0'; a++)
+
 	{
 		if (a == 0)
 		{
@@ -17,7 +17,6 @@ char *cap_string(char *s)
 				s[a] = s[a] - 32;
 			continue;
 		}
-
 		switch (s[a])
 		{
 			case ' ':
@@ -33,7 +32,6 @@ char *cap_string(char *s)
 			case ')':
 			case '{':
 			case '}':
-
 			++a;
 			if (s[a] >= 'a' && s[a] <= 'z')
 			{
@@ -42,9 +40,7 @@ char *cap_string(char *s)
 			}
 			--a;
 			break;
-
 				default:
-
 			break;
 		}
 	}
