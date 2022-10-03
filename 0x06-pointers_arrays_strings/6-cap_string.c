@@ -32,12 +32,8 @@ char *cap_string(char *s)
 			case '{':
 			case '}':
 
-			a++;
-			if (s[a] >= 'a' && s[a] <= 'z')
-			{
-				s[a] = s[a] - 32;
-				continue;
-			}
+			++a;
+			continue;
 			
 			break;
 
