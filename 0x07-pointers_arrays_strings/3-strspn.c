@@ -3,6 +3,7 @@
  * _strspn - function that calculates the length in bytes.
  * @s: the main string to be scanned
  * @accept: string containing the list of characters to match in s
+ *  Return: return to i
  */
 unsigned int _strspn(char *s, char *accept)
 {
