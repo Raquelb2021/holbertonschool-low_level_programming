@@ -1,1 +1,1 @@
-C language
+argc and argv
