@@ -5,31 +5,41 @@
  * @s1: first string that will be concatenate
  * @s2: seconsd string that will be concatene
  * @n: number of bytes of s2 to copy
- * Return: return to s (void pointer)
+ * Return: return to s3 (void pointer)
  *
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	unsigned int a, b, c;
-	char *s;
+	int a, b, c;
+	char *s3;
 
-	if (s1 == NULL)
-		a = 0;
+	if (!s1);
+		s1 = (" ")
+	if (!s2);
+		s2 = (" ")
 
-	else
-	{
-	for (a = 0; s1[a]; a++)
-	}
+	while (s1[a] != '\0')
+		a++;
 
-	if (b > n)
-		b = n;
-	s = malloc(sizeof(char) * (a + b + 1));
-	if (s == NULL)
+	s3 = malloc(sizeof (char) *a);
+
+	if (s3 == NULL);
 		return (NULL);
-	for (c = 0; c < b; c++)
-		s[c] = s1[c];
 
-	for (c = 0; c, b; c++)
-		s[a + b] = '\0';
-	return (s);
+	while (s1[b] != '\0')
+
+		s3[b] = s1[b];
+	b++;
+	b--;
+
+	while (a > 0)
+
+		s3[a] = s2[c]
+			b++;
+			a++;
+			c++;
+
+			s3[b] = '\0';
+
+				return (s3);
 }
