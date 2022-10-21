@@ -14,12 +14,18 @@ struct dog
 	char *owner;
 	};
 
+/**
+ * struct dog_t - new name of the struct
+ * @name: first member
+ * @age: second member
+ * @owner: third member
+ */
 	typedef struct dog_t
 	{
 		char *name;
 		float age;
 		char *owner;
-	}dog_t;
+	} dog_t;
 
 #include <stdio.h>
 #include <stdlib.h>
