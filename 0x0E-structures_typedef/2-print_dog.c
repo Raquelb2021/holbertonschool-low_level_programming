@@ -5,7 +5,8 @@
  */
 void print_dog(struct dog *d)
 {
-
+	if (d == 0)
+		return;
 
 	if (d->name == NULL)
 		printf("Name: (nil)\n");
@@ -21,9 +22,5 @@ void print_dog(struct dog *d)
 		printf("Owner: (nil)\n");
 	else
 		printf("Owner: %s\n", d->owner);
-
-
-	if (d == 0)
-		return;
 
 }
