@@ -15,18 +15,21 @@ list_t *add_node(list_t **head, const char *str)
 	newnode = malloc(sizeof(list_t));
 
 	if (newnode == NULL)
-
-     		return (NULL);
+		return (NULL);
 
 	strLen = strlen(str);
+
 	newnode->len = strLen;
+
 	newnode->str = strdup(str);
+
 	newnode->next = *head;
 
 	(*head) = newnode;
 
 	return (0);
 }
+
 /**
  * strlen - calculate the string length
  * @s: pointer
@@ -36,7 +39,7 @@ size_t strlen(const char *s)
 {
 	int b = 0;
 
-	while(*s)
+	while (*s)
 	{
 		s++;
 		b++;
