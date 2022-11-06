@@ -11,10 +11,10 @@ void free_listint(listint_t *head)
 {
 	listint_t *temp;
 
-	while (head != NULL)/*check if head is NULL, if yes the list is empty and we just return*/
+	while (head != NULL)/*if head is NULL, if yes we just return*/
 	{
 		temp = head;/*Save the head in a temp variable*/
 		head = head->next;/*make head point to the next node*/
-		free(temp);/*Now we can safely free(temp) variable, and head just points to the rest of the list, go back to step 1*/
+		free(temp);/*Now we can safely free(temp) variable*/
 	}
 }
