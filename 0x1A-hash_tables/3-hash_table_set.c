@@ -3,25 +3,6 @@
 #include <stdio.h>
 #include "hash_tables.h"
 /**
- * create_item - create a new item
- * @key: the key
- * @value: the value
- * Return: entry
- */
-hash_node_t *create_item(const char *key, const char *value)
-{
-	/*allocate the entry*/
-	hash_node_t *entry = malloc(sizeof(hash_node_t));
-
-	entry->key = malloc(strlen(key) + 1);
-	entry->value = malloc(strlen(value) + 1);
-
-	/*copy the key and value in place*/
-	strcpy(entry->key, key);
-	strcpy(entry->value, value);
-	return (entry);
-}
-/**
  * free_node - functions that free a node
  * @node: this is the node
  */
