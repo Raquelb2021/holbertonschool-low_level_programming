@@ -2,18 +2,20 @@
 #include <string.h>
 #include <stdio.h>
 #include "hash_tables.h"
+
 /**
- * free_node - functions that free a node
- * @node: this is the node
+ * free_item - function that free a node
+ * @node: node that is beeing free
  */
-void free_node(hash_node_t *node)
+void free_item(hash_node_t *node)
 {
 	free(node->key);
 	free(node->value);
 	free(node);
 }
+
 /**
- *  hash_table_set -  that adds an element to the hash table.
+ *  hash_table_set - that adds an element to the hash table.
  *  @key: The key, string
  *  @value: The value corresponding to a key
  *  @ht: is the hash table
@@ -22,43 +24,42 @@ void free_node(hash_node_t *node)
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
 	unsigned long int index;
-	hash_node_t *new, *curr;
+	hash_node_t *new, *temp;
+
+	if (strcmp(key, "") == 0 || key == NULL || ht == NULL)
+		return (0);
 
 	index = key_index((const unsigned char *)key, ht->size);
-
 	new = malloc(sizeof(hash_node_t));
-	if (new == NULL)
-	{
-		return (0);
-	}
-
-	new->key = strdup((char *)key);
-	new->value = strdup((char *)value);
-	new->next = NULL;
-	if (ht->array[index] == NULL)
-		ht->array[index] = new;
+		new->value = strdup((char *)value);
+		new->next = NULL;
+		if (ht->array[index] == NULL)
+			ht->array[index] = new;
 	else
 	{
-		curr = ht->array[index];
-		if (strcmp(curr->key, key) == 0)
+		temp = ht->array[index];
+	if (strcmp(temp->key, key) == 0)
+	{
+		new->next = temp->next;
+		ht->array[index] = new;
+		free_item(temp);
+		return (1);
+	}
+		while (temp->next != NULL && strcmp(temp->next->key, key) != 0)
 		{
-			new->next = curr->next;
-			ht->array[index] = new;
-			free_node(curr);
-			return (1);
+			temp = temp->next;
 		}
-		while (curr->next != NULL && strcmp(curr->next->key, key) != 0)
+		if (strcmp(temp->key, key) == 0)
 		{
-			curr = curr->next;
+		new->next = temp->next->next;
+		free_item(temp->next);
+		temp->next = new;
 		}
-		if (strcmp(curr->key, key) == 0)
-		{
-			new->next = curr->next->next;
-			free_node(curr->next);
-			curr->next = new;
+	else
+	{
 		new->next = ht->array[index];
 		ht->array[index] = new;
-		}
+	}
 	}
 	return (1);
 }
