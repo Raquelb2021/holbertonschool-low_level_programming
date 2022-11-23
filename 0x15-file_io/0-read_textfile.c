@@ -4,8 +4,10 @@
 #include <fcntl.h>
 #include <unistd.h>
 /**
- *
- *
+ * read_textfile - reads a text file.
+ * @filename: a pointer to the name of the file
+ * @letters: the number of letters the function should read and print
+ * Return: returns the actual number of letters it could read and print
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
@@ -27,4 +29,9 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	{
 	free(buffer);
 	return (0);
-	}	
+	}
+	free(buffer);
+	close(o);
+
+	return (w);
+}
